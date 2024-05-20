@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117458752842",
+    "project_id": "map-osm-bab0a",
+    "storage_bucket": "map-osm-bab0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117458752842:android:1e570f38a9dbc044399db3",
+        "android_client_info": {
+          "package_name": "com.example.landmarkremark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqNxrc4KPpKswCFhrHn_e22kt1KKfXQQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

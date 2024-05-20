@@ -1,0 +1,68 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text="@string/item_title"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+
+            />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="0.9dp"
+            android:layout_margin="2dp"
+            android:background="@color/blue" />
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/item_description"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtGeoPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/item_geopoint"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:text="@string/item_date_time"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

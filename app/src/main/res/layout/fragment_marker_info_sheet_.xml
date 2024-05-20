@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".ui.bottomsheet.markerinfo.MarkerInfoSheetFragment">
+
+    <TextView
+        android:id="@+id/markerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_title"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/markerDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:maxLines="4"
+        android:text="@string/item_description"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/markerUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/prompt_user_name"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/markerGeoPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/item_geopoint"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/markerDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/item_date_time"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnDelMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:text="@string/btnDelMarker"
+        android:textSize="16sp" />
+
+</LinearLayout>
