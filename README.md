@@ -27,7 +27,7 @@ Main features of app:
 ## Testing
 For testing purposes, you can follow these steps
 
-username: *<Enter any username you want>*
+username: *Enter any username you want*
 
 1. Map (MapFragment) - Displays all the markers of all users (location color red for my own marker, blue flag for other users markers)
 2 .My Notes (MyNotesFragment) - Displays only Notes of the current user
